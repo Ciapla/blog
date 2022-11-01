@@ -1,16 +1,16 @@
 @extends('template')
 	
 @section('content')
-<div class="bg-gray-900 px-20 py-16 rounded-lg mb-8 relative overflow-hidden">
-    <span class="text-xs uppercase text-gray-700 bg-gray-400 rounded-full px-2 py-1">Programación</span>
+<div class="bg-yellow-600 px-20 py-16 rounded-lg mb-8 relative overflow-hidden">
+    <span class="text-xs uppercase text-gray-700 bg-blue-400 rounded-full px-2 py-1">PsicologosDev</span>
     <h1 class="text-3xl text-white mt-4">Blog</h1>
-    <p class="text-sm text-gray-400 mt-2">Proyecto de desarrollo web para profesionales</p>
+    <p class="text-sm text-white mt-2">Reflexiones para compartir </p>
 
     <img src="{{ asset('images/dev.png') }}" class="absolute -right-20 -bottom-20 opacity-20">
 </div>
 
 <div class="px-4">
-    <h1 class="text-2xl mb-8 text-gray-900">Contenido técnico</h1>
+    <h1 class="text-2xl mb-8 text-gray-900">La memoria se refiere siempre al presente.</h1>
 
     <div class="grid grid-cols-1 gap-4 mb-4">
     	@foreach($posts as $post)

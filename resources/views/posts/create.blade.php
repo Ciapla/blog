@@ -18,4 +18,18 @@
             </div>
         </div>
     </div>
+    
+    {{-- CL-editor-CDN --}}
+    
+
+    {{-- CK-Editor --}}
+    
 </x-app-layout>
+
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#editor'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
